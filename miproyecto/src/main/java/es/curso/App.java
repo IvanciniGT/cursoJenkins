@@ -30,6 +30,6 @@ public class App
     public static int menor( int numero1, int numero2 )
     {
         // TODO: Implemntar la función
-        return -1;
+        return numero1 < numero2 ? numero1 : numero2 ;
     }
 }
