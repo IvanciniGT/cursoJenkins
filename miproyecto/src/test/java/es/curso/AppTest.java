@@ -67,6 +67,29 @@ public class AppTest
         int resultado=App.mayor(5,-10);
         assertEquals( resultado, 5 );
     }
-
     
+    @Test
+    public void pruebaMenorNegativos(){
+        int resultado=App.menor(5,-10);
+        assertEquals( resultado, -10 );
+    }
+    @Test
+    public void pruebaMenorNumero1(){
+        int resultado=App.menor(5,8);
+        assertEquals( resultado, 5 );
+    }
+    @Test
+    public void pruebaMenorNumero2(){
+        int resultado=App.menor(5,2);
+        assertEquals( resultado, 2 );
+    }
+    @Test
+    public void pruebaMenorIguales(){
+        int resultado=App.menor(5,-5);
+        assertEquals( resultado, 5 );
+    }
+
+    /*
+        METODOLOGIA Test Driven Development
+    */
 }
