@@ -85,7 +85,7 @@ public class AppTest
     }
     @Test
     public void pruebaMenorIguales(){
-        int resultado=App.menor(5,5);
+        int resultado=App.menor(5,-5);
         assertEquals( resultado, 5 );
     }
 
