@@ -7,7 +7,7 @@
   <groupId>es.curso</groupId>
   <artifactId>miproyecto</artifactId>
   <version>1.0-SNAPSHOT</version>
-
+  <!-- Esto es solo para provocar un cambio -->
   <name>miproyecto</name>
 
   <properties>
